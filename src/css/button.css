@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    background-color: #fff; 
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    color: #4a4a4a;
+    font-size: 14px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.btn+.btn {
+    margin-left: 10px;
+}
+.btn:focus,
+.btn:hover {
+    color: #fff;
+}
+.btn_cofirm:focus,
+.btn_cofirm:hover {
+    background-color: #0067ff;
+}
+.btn_cancel:focus,
+.btn_cancel:hover {
+    background-color: #e61216;
+}
