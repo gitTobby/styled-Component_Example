@@ -6,7 +6,6 @@ import Sample1 from './Sample/Sample1';
 // import Sample5 from './Sample/Sample5';
 // import SpeedTest1 from './Sample/SpeedTest/SpeedTest1';
 // import SpeedTest2 from './Sample/SpeedTest/SpeedTest2';
-// import './css/button.css';
 
 
 class App extends Component {

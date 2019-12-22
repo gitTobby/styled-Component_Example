@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
+import './css/button.css';
 
 class Sample2 extends Component {
   render() {
