@@ -1,4 +1,4 @@
-## About Cnotent
+## About Content
 
 이 프로젝트는 Styled-Component를 간략히 소개하기 위해 만들어진 예제 입니다.
 

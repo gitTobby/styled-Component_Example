@@ -9,6 +9,7 @@
     font-size: 14px;
     vertical-align: top;
     cursor: pointer;
+    box-sizing: border-box;
 }
 .btn+.btn {
     margin-left: 10px;
@@ -17,11 +18,12 @@
 .btn:hover {
     color: #fff;
 }
-.btn_cofirm:focus,
-.btn_cofirm:hover {
+.btn_confirm:focus,
+.btn_confirm:hover {
     background-color: #0067ff;
 }
 .btn_cancel:focus,
 .btn_cancel:hover {
     background-color: #e61216;
 }
+/* .gray {background-color:#ccc;} */
