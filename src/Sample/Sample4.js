@@ -8,6 +8,7 @@ class Sample4 extends Component {
         <h1>Sample 4</h1>
         <TestButton1>Button</TestButton1>
         <TestButton2>Button</TestButton2>
+        <Button primary>Extra Button</Button>
       </Fragment>
     );
   }
@@ -28,6 +29,10 @@ const defaultBtn = css`
   &+button {
     margin-left: 4px;
   }
+  ${props => props.primary && css`
+    color: #4a4a4a;
+    background-color: yellow;
+  `}
 `
 const TestButton1 = styled.button`
     ${defaultBtn};
@@ -36,6 +41,10 @@ const TestButton1 = styled.button`
 const TestButton2 = styled.button`
     ${defaultBtn};
     background-color: purple;
+`;
+
+const Button = styled.button`
+    ${defaultBtn};
 `;
 
 export default Sample4;
